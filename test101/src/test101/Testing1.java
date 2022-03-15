@@ -15,4 +15,11 @@ public class Testing1 {
 		return "a=" + a + " b=" + b + " c=" + c + "";
 	}
 	
+	public int calcSum () {
+		int Sum = 0;
+		
+		Sum = a + b + c;
+		
+		return Sum;
+	}
 }
